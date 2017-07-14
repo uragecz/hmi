@@ -1,0 +1,61 @@
+input.numpadInput {
+  float:right;
+  width: 100%;
+  display: inline-block;
+  text-align: right;
+  border : none;
+  border-radius: 5px;
+  background-color: rgb(232,119,34);
+  padding: 5px;
+  color:#244c5a;
+}
+
+.row1, .row2, .row3, .row4 {
+  display: inline-block;
+  margin-top:10px
+}
+
+button{
+  width: 50px;
+  height: 50px;
+}
+
+.column1{
+  float:left;
+}
+
+.column2{
+  margin-left: 10px;
+  float:left;
+}
+
+.column3 {
+  margin-left: 10px;
+  float:left;
+}
+
+#top-caption{
+  width: 100%;
+  height: 15px;
+  margin-bottom: 2px;
+}
+
+#label{
+  height: 100%;
+  float:left;
+  width: 60%;
+  font-size: x-small;
+  font-weight: 100 !important;
+}
+
+#limit{
+  height:100%;
+  float:right;
+}
+
+.root{
+  width: 170px;
+  height: 285px;
+
+}
+

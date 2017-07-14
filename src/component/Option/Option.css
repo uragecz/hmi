@@ -1,0 +1,71 @@
+#option{
+    top: 50px;
+    height: 200px;
+    width: 116px;
+    position: absolute;
+    right: 2px;
+}
+
+#unit{
+    height: 70px;
+    width: 100%;
+    font-size: xx-large;
+}
+
+#group{
+    height: 70px;
+    width: 100%;
+    font-size: xx-large;
+}
+
+#shift{
+    height: 90px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.option-item.active{
+    color: white;
+    background-color: #244c5a;;
+}
+
+.option-item{
+    color: black;
+    display: flex;  
+    justify-content: center;
+    background-color: rgb(224,224,225);
+}
+
+.shift.from{
+    font-size: initial;
+    height: 25px;
+}
+.shift.to{
+    font-size: initial;
+    height: 25px;
+}
+
+.shift.num{
+    font-size: x-large;
+    height: 40px;
+}
+
+.shift{
+    display: flex;
+    justify-content: center;
+}
+
+.operator{
+    float: left;
+    width: 58px;
+}
+
+.plus-minus{
+    width: 100%;
+    height: 50px;
+}
+
+
+

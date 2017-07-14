@@ -1,0 +1,69 @@
+.optionCircle{
+    position: absolute;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+
+#optionPanel{
+    position: absolute;
+    width: 252px;
+    height: 340px;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+
+.rightOptionIcons{
+    width: 32px;
+    height: 32px;
+}
+
+.optionIcon{
+    width: 125px;
+    height:60px;
+    left: 0;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+.optionIcon.down{
+    bottom: 6px;
+}
+
+.mark.left{
+    left: 22px;
+}
+
+.mark.right{
+    right: 15px;
+}
+
+.mark.top.left{
+    bottom: -18px;
+}
+
+.mark.bottom.left{
+    top: -18px;
+}
+
+.mark{
+    position: absolute;
+}
+
+#group-unit-line{
+    position: absolute;
+    top: calc(50% - 3px);
+    transform: translate(0, -50%);
+}
+
+#option-time{
+    position: absolute;
+    top: calc(50% + 150px);
+    width: 100%;
+    text-align: center;
+    color: #244c5a;
+}
+
+

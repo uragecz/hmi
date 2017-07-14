@@ -1,0 +1,162 @@
+.inputs-root{
+    width: 100%;
+    font-size: small;
+}
+
+.inputs-container{
+    width: 100%;
+    height: auto;
+    padding-bottom: 4px;
+}
+
+.inputs-description{
+    width: 100%;
+    height: 28px;
+    color: #000000;
+    padding: 5px 5px 5px 10px;
+    font-weight: 600;
+    border-bottom: 1px solid black;
+}
+
+.table-list{
+    width: 100%;
+}
+
+.boxInput{
+    width: 20px;
+    height: 20px;
+    margin: 0;
+}
+
+td{
+    padding-top: 5px;
+}
+
+.input-container .boxInput {
+    width: 40px;
+}
+
+.table-cell.input{
+    width: 25%;
+}
+.table-cell.box{
+    width: 35px;
+    text-align: center;
+    justify-content: center;
+    display: table-cell;
+}
+
+.header-cell.caption{
+    text-align: left;
+    padding-left: 5px;
+}
+
+.header-cell{
+    color: rgb(232,119,34);
+}
+
+.table-cell.caption{
+    padding-left: 5px;
+}
+
+.table-cell.number{
+    text-align: center;
+    width: 20%;
+}
+
+.table-cell .textInput{
+    width: 100%;
+    float: right;
+    text-align: right;
+    border: none;
+    background-color: rgb(224,224,225);
+    padding: 5px;
+}
+
+.table-cell .captionLabel{
+    padding-right: 10px;
+}
+
+.table-cell.unit{
+    width: 45px;
+    text-align: center;
+}
+
+input.modalTextInput{
+    width: 25%;
+    height: 25px;
+    text-align: right;
+    border-radius: 5px;
+    border: 1px solid #9da0a4;
+    float: left;
+    font-size: 18px;
+}
+
+.inputList.disable{
+    pointer-events: none;
+}
+
+.descTitle{
+    position: absolute;
+}
+
+.hidden{
+    display: none;
+}
+
+.title{
+    width: 50%;
+    text-align: left;
+    padding: 6px;
+    height: 10px;
+}
+
+.title.one{
+    width: 100%;
+}
+
+.title.two{
+    width: 50%;
+}
+
+.head-row{
+    border-bottom: 1px solid black;
+    height: 30px !important;
+}
+
+th{
+    border-bottom: 1px solid black;
+}
+
+/****** MODAL WINDOW ******/
+.modalInputs-root .textInput{
+    border-radius: 3px;
+    height: 30px;
+    background-color: #f1f1f1;
+    color: black;
+    border: 1px solid white;
+    padding-right: 5px;
+}
+
+.modalInputs-root.unitLabel{
+    min-width: 60px;
+}
+
+
+.modalInputs-root .box{
+    height: 38px;
+}
+
+.modalInputs-root .input{
+    padding: 5px;
+}
+
+.table-cell .active{
+    border: 1px solid #244c5a;
+    border-radius: 5px;
+}
+
+.modalInputs-root{
+    width: 100%;
+}
+

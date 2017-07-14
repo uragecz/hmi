@@ -1,0 +1,26 @@
+#languageMenu{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    display: table;
+}
+
+.language-item{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    margin-right: 50px;
+    float: left;
+}
+
+.languageIcon{
+    padding: 5px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    margin: 10px;
+}

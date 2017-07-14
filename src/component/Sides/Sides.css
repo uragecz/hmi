@@ -1,0 +1,133 @@
+#left{
+    position: fixed;
+    width: 120px;
+    z-index: 10;
+    left: 0;
+    height: 100%;
+    background-color: rgb(99,102,106);
+}
+
+#top{
+    top: 0;
+    position: fixed;
+    left: 120px;
+    width: calc(100% - 240px);
+    height: 50px;
+}
+
+#right{
+    right: 0;
+    width: 120px;
+    height: 100%;
+    position: fixed;
+}
+
+#article-text{
+        padding: 0 10px 0 10px;
+}
+#article{
+        position: absolute;
+        right: 0;
+        height: 40px;
+        bottom: 2px;
+        background-color: #244c5a;
+        color: white;
+        display: flex;
+        justify-content: center;
+}
+#article-hamburger{
+    width: 40px;
+    height: 100%;
+    background-color: rgb(224,224,225);
+}
+
+#startButt{
+    width: 116px;
+    height: 75px;
+    background-color: rgb(232,119,34);
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+}
+
+#keyButton{
+    width: 100px;
+    position: fixed;
+    right: 0;
+    display: flex;
+    height: 70px;
+    justify-content: center;
+    background-color: #50707b;
+    border-left: 2px solid #d3dbde;
+    z-index: 10;
+}
+
+#menuOpenButton{
+    width: 120px;
+    height: 75px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(232,119,34);
+    margin-right: 2px;
+    z-index: 11;
+}
+
+#loginIcon{
+    position: absolute;
+    width: 100%;
+    top: 5px;
+    left: calc(50% - 30px);
+}
+
+#loginPoints{
+    position: absolute;
+    left: calc(50% - 11px);
+    bottom: 3px;
+}
+
+#info{
+    position: absolute;
+    right: 123px;
+    text-align: right;
+    top: 74px;
+    color: white;
+    z-index: 9;
+    height: 0;
+}
+
+.toolbarArrowLeft.info{
+    border-bottom: 42px solid #244c5a;
+    margin: 0;
+}
+
+#article-shift{
+    display: -webkit-inline-box;
+    margin-right: 2px;
+    user-select: none;
+}
+
+#infoName{
+    background-color: #244c5a;
+    padding: 10px;
+    height: 100%;
+}
+
+#label{
+    color: black;
+    font-weight: 600;
+}
+
+#shift-hamburger{
+    width: 39px;
+    height: 39px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-color: white
+}
+
